@@ -77,7 +77,7 @@ Add VAT amount to previous amount
 
 __Options:__
 
-- `vatPercent` (**required**) - Percent of VAT (e.g. `40` for 40%)
+- `vatPercent` (**required**) - Percent of VAT as number (e.g. `40` for 40%)
 
 __Return:__
 
@@ -85,7 +85,7 @@ Object (this)
 
 ## Example
 
-See [tests](tests/)
+See [tests](https://github.com/touch4it/currency-format/blob/master/lib/tests/index.test.js)
 
 ## License
 

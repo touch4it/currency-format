@@ -85,7 +85,7 @@ Object (this)
 
 ## Example
 
-See [tests](tests/)
+See [tests](https://github.com/touch4it/currency-format/blob/master/lib/tests/index.test.js)
 
 ## License
 

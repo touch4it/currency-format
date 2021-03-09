@@ -1,5 +1,13 @@
 # Format currency output
 
+## 1.0.3 (2021-03-09)
+
+-   Updated documentation
+
+## 1.0.2 (2021-03-09)
+
+-   Fixed Typescript definition
+
 ## 1.0.1 (2021-03-09)
 
 -   Added readme and license

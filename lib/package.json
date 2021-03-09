@@ -1,6 +1,6 @@
 {
   "name": "@touch4it/currency-format",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Currency formatter",
   "license": "MIT",
   "engines": {
@@ -18,13 +18,21 @@
   "contributors": [
     "Viktor Sulak <viktor.sulak@touch4it.com>"
   ],
+  "keywords": [
+    "currency",
+    "currency formatter",
+    "format",
+    "formatter",
+    "ISO 4217"
+  ],
   "main": "index.js",
   "scripts": {
     "format-package": "npx format-package -w",
     "lint": "eslint index.js",
     "lint:fix": "eslint --fix index.js",
     "test": "npm run unit && npm run lint",
-    "unit": "jest"
+    "unit": "jest",
+    "generate-d-ts": "npx typescript"
   },
   "maintainers": [
     "Viktor Sulak <viktor.sulak@touch4it.com>"
