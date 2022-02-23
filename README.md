@@ -35,6 +35,18 @@ __Return:__
 
 Formatted string
 
+### `toSmallestUnit([decimals])`
+
+Return number in the smallest currency unit
+
+__Options:__
+
+- `decimals` (*optional*, default: calculated from currency) - Decimal places in input
+
+__Return:__
+
+Number
+
 ### `add(amount)`
 
 Add amount to previous amount

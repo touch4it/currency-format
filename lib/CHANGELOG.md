@@ -1,5 +1,9 @@
 # Format currency output
 
+## 1.1.0 (2022-02-23)
+
+-   Added `toSmallestUnit` function
+
 ## 1.0.3 (2021-03-09)
 
 -   Updated documentation

@@ -17,6 +17,13 @@ export class Price {
      */
     toString(decimals?: string | number): string;
     /**
+     * Return number in the smallest currency unit
+     *
+     * @param {string|Number} decimals? Decimal places in input
+     * @returns Number Return number in the smallest currency unit
+     */
+    toSmallestUnit(decimals?: string | number): Number;
+    /**
      * Add amount to previous amount
      *
      * @param {string|Number} amount Amount to be added
